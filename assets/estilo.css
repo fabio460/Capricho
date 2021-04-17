@@ -1,20 +1,85 @@
 body{
     margin: 0px;
     box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 }
 header{
     background-color: black;
 }
+header a{
+    
+    width: 30px;
+    height: 30px;
+    margin: 8px;
+    padding-bottom: 5px;
+}
+.barrinhas{
+    display: flex;
+    justify-content: center;
+    
+}
+.barrinhas{
+    margin-bottom: 30px;
+}
+.barra{
+    background-color: black;
+    width: 25px;
+    height: 2px;
+    margin: 2px;
+}
+.b1{
+    transform:rotate(-30deg);
+    margin-top: 10px;
+}
+.b2{
+    transform: rotate(-60deg);
+    margin-top: 25px;
+}
+.b3{
+    transform: rotate(90deg);
+    margin-top: 30px;
+}
+.b4{
+    transform: rotate(60deg);
+    margin-top: 25px;
+}
+.b5{
+    transform: rotate(30deg);
+    margin-top: 10px;
+}
 .container{
     width: 1300px;
     margin: auto;
+    display: flex;    
+}
+.section_superior{
+    background-color:#f6cbea;
+}
+footer{
     display: flex;
-    
-    
+    background-color: #f6ddfb;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+footer a,p{
+    text-decoration: none;
+    margin-left: 10px;
+    margin: 10px;
+    color: black;
+}
+.section_inferior H1{
+    font-size: 50px;
+    margin-left: 45%;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0px;
+    text-shadow: #f6cbea 3px 3px 0.5px;
 }
 section .container{
     color: #ae0f09;
     font-size: 25px;
+    background-color:#f6cbea; 
 }
 header img{
     width: 30px;
@@ -22,9 +87,6 @@ header img{
     margin: 5px;
 }
 
-section{
-    background-color:#f6cbea;    
-}
  .traço{
     background-color: #ae0f09;
     width: 25px;
@@ -56,3 +118,46 @@ section .container a{
     text-decoration: none;
     color: #ae0f09;
 }
+.container_principal{
+    
+    display: grid;
+    grid-template-columns: 320px auto;
+    gap:5px;
+}
+.blocos{
+    
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    
+}
+.blocos img{
+    width: 300px;
+    height: 200px;
+}
+.blocos:nth-child(even){
+    width: auto;
+    
+    text-decoration: none;
+    
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.blocos:nth-child(even) a{
+    text-decoration: none;
+    background-color: #f6cbea;
+    color: #ae0f09;
+}
+.blocos:nth-child(even) h4 a{
+    background-color: white;
+}
+.blocos:nth-child(even) h1{
+    margin:2px;
+}
+.blocos:nth-child(even) p{
+    color: black;
+    font-size: 10px;
+    
+}
+
