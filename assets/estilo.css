@@ -10,28 +10,49 @@ header{
     margin: auto;
     display: flex;
     
+    
 }
-img{
+section .container{
+    color: #ae0f09;
+    font-size: 25px;
+}
+header img{
     width: 30px;
     height: 30px;
     margin: 5px;
 }
 
 section{
-    background-color:#f6cbea;
-    height: 110px;
-    
+    background-color:#f6cbea;    
 }
  .traço{
-    background-color: black;
+    background-color: #ae0f09;
     width: 25px;
     height: 3px;
     margin: 5px;
+    margin-right: 20px;
 }
-.lupinha{
-    color: pink;
-    background-color: pink;
+.logo{
+    margin-left: 450px;   
+    margin-right: 450px;
+}
+.logo img{
+    width: 170px;
+    height: 80px;
+    
+}
+
+.lupinha img{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    padding-top: 10px;
 }
 section .container{
-    padding-top: 40px;
+    
+    align-items: center;
+}
+section .container a{
+    text-decoration: none;
+    color: #ae0f09;
 }
