@@ -6,6 +6,7 @@ body{
 }
 header{
     background-color: black;
+    
 }
 header a{
     
@@ -123,6 +124,7 @@ section .container a{
     display: grid;
     grid-template-columns: 320px auto;
     gap:5px;
+    margin-left: 180px;
 }
 .blocos{
     
@@ -154,6 +156,7 @@ section .container a{
 }
 .blocos:nth-child(even) h1{
     margin:2px;
+    font-size: 30px;
 }
 .blocos:nth-child(even) p{
     color: black;
